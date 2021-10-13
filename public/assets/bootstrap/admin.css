@@ -1,0 +1,109 @@
+
+body {
+    background-color: green;
+    color: #fff;;
+  }
+.log{
+    height: 66px;
+}
+
+.admin-wrapper{
+    display: flex; 
+    /* height: calc(100% - 66px); */
+    height: 100vh; 
+}
+
+.admin-wrapper .left-sidebar{
+  flex: 2; 
+  height: 100vh;
+  background: #235726;
+}
+
+.admin-wrapper .left-sidebar ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    color: antiquewhite;
+}
+
+.admin-wrapper .left-sidebar ul li a{
+    padding: 18px;
+    display: block;
+    border-bottom: 1px solid #004409;
+    color: antiquewhite;
+}
+
+.admin-wrapper .left-sidebar ul li a:hover {
+    background-color: #004400;
+    text-decoration: none;
+}
+
+.admin-wrapper .admin-content{
+   flex: 8; 
+   height: 100vh;
+   padding: 40px 100px 100px;
+   overflow-y: scroll;
+   color: #fff;;
+}
+.admin-content .pag-title{
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+table{
+    /* width: 100%; */
+    border-collapse: collapse;
+    font-size: 0.8rem;
+}
+
+
+th, td{
+   padding: 8px;
+   text-align: left; 
+   border-bottom: 1px solid #d3d3d3;
+} 
+
+.edit{
+    color: green;
+}
+
+.delete{
+    color: red;
+}
+
+.edit:hover, .delete:hover{
+    text-decoration: none;
+}
+
+form {
+    border-radius: 1px solid #000;
+    box-shadow: 2px 2px 2px 2px #000; 
+}
+
+form div{
+    margin-bottom: 15px;
+}
+
+section{
+    padding-top: 1000px;
+}
+
+.form-section{
+    padding-left: 15px;
+    display: none;
+}
+
+.form-section.current{
+    display: inherit;
+}
+
+.btn-info, .btn-btn-success{
+    margin-top: 10px;
+}
+
+.btn-btn-success{
+    margin-left: 20px;
+}
+
+
